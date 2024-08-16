@@ -1,0 +1,16 @@
+.min-w_\[max-content\] {
+    min-width: auto !important;
+}
+
+.grid-template-areas_\[_\"player_sidebar\"_\"meta_sidebar\"_\"bottom_sidebar\"_\"\._sidebar\"_\] {
+  grid-template-areas:
+    "player"
+    "meta"
+    "bottom"
+    "sidebar"
+    !important;
+}
+
+.grid-cols_\[var\(--watch-player-width\)_var\(--watch-sidebar-width\)\] {
+    grid-template-columns: none !important;
+}

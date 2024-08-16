@@ -1,0 +1,10 @@
+{
+  "manifest_version": 3,
+  "name": "niconico css override",
+  "version": "0.1.0",
+  "description": "niconico css override",
+  "content_scripts": [{
+    "matches": ["https://*.nicovideo.jp/*"],
+    "css": ["override.css"]
+  }]
+}
